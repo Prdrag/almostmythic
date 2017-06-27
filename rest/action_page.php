@@ -3,7 +3,7 @@
 	$passwort = $_POST['psw'];
 			
 	//Überprüfung des Passworts
-	if ($email == 'admin' && $passwort == "!almost2017"){
+	if ($email == 'admin' && $passwort == " "){
 		include('admin_form.php');
 	} else {
 		header('Location: ../index.html');
