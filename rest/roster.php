@@ -74,40 +74,40 @@
     function class_name($class_name){
       switch ($class_name) {
         case 1:
-          return 'warrior';
+          return 'Krieger';
           break;
         case 2:
-          return 'paladin';
+          return 'Paladin';
           break;
         case 3:
-          return 'hunter';
+          return 'Jäger';
           break;
         case 4:
-          return 'rogue';
+          return 'Schurke';
           break;
         case 5:
-          return 'priest';
+          return 'Priester';
           break;
         case 6:
-          return 'deathknight';
+          return 'Todesritter';
           break;
         case 7:
-          return 'shaman';
+          return 'Schamane';
           break;
         case 8:
-          return 'mage';
+          return 'Magier';
           break;
         case 9:
-          return 'warlock';
+          return 'Hexenmeister';
           break;
         case 10:
-          return 'monk';
+          return 'Mönch';
           break;
         case 11:
-          return 'druid';
+          return 'Druide';
           break;
         case 12:
-          return 'demonhunter';
+          return 'Dämonen Jäger';
           break;        
         default:
           return '';
