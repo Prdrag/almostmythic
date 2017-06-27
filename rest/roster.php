@@ -107,7 +107,7 @@
           return 'Druide';
           break;
         case 12:
-          return 'Dämonen-Jäger';
+          return 'Dämonen Jäger';
           break;        
         default:
           return '';

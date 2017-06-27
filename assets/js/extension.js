@@ -86,15 +86,6 @@ $(document).ready(function() {
 		$('#news_body').append(newstext);
 	})
 
-	function replaceUmlauts(string)
-	{
-		value = string.toLowerCase();
-		value = value.replace(/ä/g, 'ae');
-		value = value.replace(/ö/g, 'oe');
-		value = value.replace(/ü/g, 'ue');
-		return value;
-	}
-
 	$.getJSON('rest/roster.json', function(roster) {
 		// console.log(roster);
 		for (i = 0; i < roster.members.length; ++i) {
@@ -107,10 +98,10 @@ $(document).ready(function() {
 			var rang = player.rang;
 			var row = '';
 			var server = 'http://eu.battle.net/wow/en/character/blackhand/' + wowname + '/advanced';
-			var classUmlaute = replaceUmlauts(wowclass);
+
 			//show Headers
         	if ($('#' + wowclass).text().length == 0){
-        		var row2 = '<h2 class="'+ wowclass +'"><img class="class_icon" src="assets/css/images/'+ classUmlaute +'.png">'+ wowclass +'</h2>';
+        		var row2 = '<h2 class="'+ wowclass +'"><img class="class_icon" src="assets/css/images/'+ wowclass +'.png">'+ wowclass +'</h2>';
         		$('.' + wowclass +'_header').append(row2);
         	}
 			$('.' + wowclass +'_header').show();

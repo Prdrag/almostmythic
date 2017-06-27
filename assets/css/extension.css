@@ -1,97 +1,97 @@
-.Todesritter {
+.deathknight {
   color: #C41E3A !important;
 }
 
-.Dämonen-Jäger {
+.demonhunter {
   color: #A330C9 !important;
 }
 
-.Druide {
+.druid {
   color: #FF7D0A !important;
 }
 
-.Jäger {
+.hunter {
   color: #ABD473 !important;
 }
 
-.Magier {
+.mage {
   color: #69CCF0 !important;
 }
 
-.Mönch {
+.monk {
   color: #00FF96 !important;
 }
 
-.Paladin {
+.paladin {
   color: #F58CBA !important;
 }
 
-.Priester {
+.priest {
   color: #FFFFFF !important;
 }
 
-.Schurke {
+.rogue {
   color: #FFF569 !important;
 }
 
-.Schamane {
+.shaman {
   color: #0070DE !important;
 }
 
-.Hexenmeister {
+.warlock {
   color: #9482C9 !important;
 }
 
-.Krieger {
+.warrior {
   color: #C79C6E !important;
 }
 
 /*border for headers*/
-.Todesritter_header {
+.deathknight_header {
   border-bottom: 1px solid #C41E3A !important;
 }
 
-.Dämonen-Jäger_header {
+.demonhunter_header {
   border-bottom: 1px solid #A330C9 !important;
 }
 
-.Druide_header {
+.druid_header {
   border-bottom: 1px solid #FF7D0A !important;
 }
 
-.Jäger_header {
+.hunter_header {
   border-bottom: 1px solid #ABD473 !important;
 }
 
-.Magier_header {
+.mage_header {
   border-bottom: 1px solid #69CCF0 !important;
 }
 
-.Mönch_header {
+.monk_header {
   border-bottom: 1px solid #00FF96 !important;
 }
 
-.Paladin_header {
+.paladin_header {
   border-bottom: 1px solid #F58CBA !important;
 }
 
-.Priester_header {
+.priest_header {
   border-bottom: 1px solid #FFFFFF !important;
 }
 
-.Schurke_header {
+.rogue_header {
   border-bottom: 1px solid #FFF569 !important;
 }
 
-.Schamane_header {
+.shaman_header {
   border-bottom: 1px solid #0070DE !important;
 }
 
-.Hexenmeister_header {
+.warlock_header {
   border-bottom: 1px solid #9482C9 !important;
 }
 
-.Krieger_header {
+.warrior_header {
   border-bottom: 1px solid #C79C6E !important;
 }
 
