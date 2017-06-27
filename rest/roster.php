@@ -5,7 +5,7 @@
   $guildname = $settings_file['guildname'];
 
   //Get Data from Armory
-  $requestURL = 'https://eu.api.battle.net/wow/guild/'.rawurlencode($server).'/'.rawurlencode($guildname).'?fields=members&locale=de_DE&apikey=wb9rb9bxp2w53hvp2mn5gvc4a5rzm7v4';
+  $requestURL = 'https://eu.api.battle.net/wow/guild/blackhand/almost%20mythic?fields=members&locale=en_US&apikey=wb9rb9bxp2w53hvp2mn5gvc4a5rzm7v4';
   $curl = curl_init();
   curl_setopt_array($curl, array(
   CURLOPT_URL => $requestURL,
