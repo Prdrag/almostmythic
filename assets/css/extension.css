@@ -1,0 +1,102 @@
+.deathknight {
+  color: #C41E3A !important;
+}
+
+.demonhunter {
+  color: #A330C9 !important;
+}
+
+.druid {
+  color: #FF7D0A !important;
+}
+
+.hunter {
+  color: #ABD473 !important;
+}
+
+.mage {
+  color: #69CCF0 !important;
+}
+
+.monk {
+  color: #00FF96 !important;
+}
+
+.paladin {
+  color: #F58CBA !important;
+}
+
+.priest {
+  color: #FFFFFF !important;
+}
+
+.rogue {
+  color: #FFF569 !important;
+}
+
+.shaman {
+  color: #0070DE !important;
+}
+
+.warlock {
+  color: #9482C9 !important;
+}
+
+.warrior {
+  color: #C79C6E !important;
+}
+
+/*border for headers*/
+.deathknight_header {
+  border-bottom: 1px solid #C41E3A !important;
+}
+
+.demonhunter_header {
+  border-bottom: 1px solid #A330C9 !important;
+}
+
+.druid_header {
+  border-bottom: 1px solid #FF7D0A !important;
+}
+
+.hunter_header {
+  border-bottom: 1px solid #ABD473 !important;
+}
+
+.mage_header {
+  border-bottom: 1px solid #69CCF0 !important;
+}
+
+.monk_header {
+  border-bottom: 1px solid #00FF96 !important;
+}
+
+.paladin_header {
+  border-bottom: 1px solid #F58CBA !important;
+}
+
+.priest_header {
+  border-bottom: 1px solid #FFFFFF !important;
+}
+
+.rogue_header {
+  border-bottom: 1px solid #FFF569 !important;
+}
+
+.shaman_header {
+  border-bottom: 1px solid #0070DE !important;
+}
+
+.warlock_header {
+  border-bottom: 1px solid #9482C9 !important;
+}
+
+.warrior_header {
+  border-bottom: 1px solid #C79C6E !important;
+}
+
+@media screen and (min-width: 800px) {
+  .class_header{
+    padding-right: 120px;
+  }
+}
