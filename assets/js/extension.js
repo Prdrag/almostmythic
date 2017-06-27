@@ -110,7 +110,7 @@ $(document).ready(function() {
 			row += '<li>';
 			row += '<a href="' + server + '" target="_blank"><h3 class="' + wowclass + '">' + wowname + '</h3></a>';
 			row += 'Role: ' + role2show(role) + '<br/>';
-			row += 'Spec: ' + spec + '<br/>';
+			row += 'Spez.: ' + spec + '<br/>';
 			row += 'Rang: ' + rang + '';
 			row +='</li>';
         	$('#' + wowclass).append(row);
