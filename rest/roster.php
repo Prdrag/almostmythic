@@ -52,7 +52,7 @@
           return 'Offizier Twink';
           break;
         case 3:
-          return 'Raid';
+          return 'Raidmember';
           break;
         case 4:
           return 'Anwärter';
